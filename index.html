@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <!-- fontawesome cdn  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- bootstrap stylesheet  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css stylesheet  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header starts -->
+    <header>
+        <!-- navigation starts  -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top mb-5">
+            <div class="container">
+              <a class="navbar-brand fw-bold ecow" href="#"><span style="color: rgb(255, 145, 0);">e</span><span style="color: rgb(255, 251, 0);">COW</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-3 mb-lg-0 increase-font">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">হোম</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">ক্যাটাগরি</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#backpack">গরু</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">ছাগল</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">উট</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">সাবস্কারাইব</a>
+                        </li>
+                        
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success rounded-pill" type="submit">Search</button>
+                    </form>
+              </div>
+            </div>
+        </nav>
+
+        <!-- navigation end  -->
+
+        <!-- category section starts here  -->
+
+        <section class="container">
+            <div class="category-section category-section py-4">
+                <section id="feedback">
+                    <div class="title text-center mb-3">
+                        <h3 class="font-weight-bolder text-white category-heading">ক্যাটাগরি</h3>
+                        <hr class="dotted-hr">
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500" data-pause="hover">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <p style="font-size: 20px;font-weight:700;">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু লম্বা কুরবানির পশু ক্রয় করার জন্য আপনাকে স্বাগতম</p>
+                                        <img class="feedback-img rounded-circle mb-3 " src="images/cow/calamanik.png" alt="">
+                                        <h2 style="font-weight: 600;">কালামানিক</h2>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <p style="font-size: 20px;font-weight:700;">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু লম্বা কুরবানির পশু ক্রয় করার জন্য আপনাকে স্বাগতম</p>
+                                        <img class="feedback-img rounded-circle mb-3 " src="images/cow/dholamanik.png" alt="">
+                                        <h2 style="font-weight: 600;">ধলামানিক</h2>
+                                    </div>
+                                   <div class="carousel-item">
+                                        <p style="font-size: 20px;font-weight:700;">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু লম্বা কুরবানির পশু ক্রয় করার জন্য আপনাকে স্বাগতম</p>
+                                        <img class="feedback-img rounded-circle mb-3 " src="images/goat/birbahadur.png" alt="">
+                                        <h2 style="font-weight: 600;">পটল শুটকি</h2>
+                                   </div>
+                                   <div class="carousel-item">
+                                        <p style="font-size: 20px;font-weight:700;">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু লম্বা কুরবানির পশু ক্রয় করার জন্য আপনাকে স্বাগতম</p>
+                                        <img class="feedback-img rounded-circle mb-3 " src="images/goat/dhullu.jpg" alt="">
+                                        <h2 style="font-weight: 600;"> ধল্লু</h2>
+                                   </div>
+                                   <div class="carousel-item">
+                                        <p style="font-size: 20px;font-weight:700;">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু লম্বা কুরবানির পশু ক্রয় করার জন্য আপনাকে স্বাগতম</p>
+                                        <img class="feedback-img rounded-circle mb-3 " src="images/camel/camel-2.jpg" alt="">
+                                        <h2 style="font-weight: 600;"> লাউ সুন্দরি</h2>
+                                   </div>
+                                   <div class="carousel-item">
+                                        <p style="font-size: 20px;font-weight:700;">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু লম্বা কুরবানির পশু ক্রয় করার জন্য আপনাকে স্বাগতম</p>
+                                        <img class="feedback-img rounded-circle mb-3 " src="images/camel/camel-4.jpg" alt="">
+                                        <h2 style="font-weight: 600;"> কমলা সুন্দরি</h2>
+                                   </div>
+                                  
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                </section>
+            </div>
+        </section>
+
+        <!-- category section ends here  -->
+
+    </header>
+
+    <!-- main starts -->
+    <main>
+        <!-- catagoris starts -->
+        <section class="container overflow-hidden my-5 catagoris">
+            <div class="row gy-5">
+                <div class="col-lg-4 col-12">
+                  <div style="background-color: #ffa500;" class="p-2 border d-flex align-items-center justify-content-between p-3 rounded-3">
+                      <h1 class="text-white">গরু</h1>
+                      <img src="images/cow/calamanik.png" class="rounded-circle" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div style="background-color: #da70d6;" class="p-2 border d-flex align-items-center justify-content-between p-3 rounded-3">
+                        <h1 class="text-white">ছাগল</h1>
+                        <img src="images/goat/lallu.jfif" class="rounded-circle" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div style="background-color: #0000ff;" class="p-2 border d-flex align-items-center justify-content-between p-3 rounded-3">
+                        <h1 class="text-white">উট</h1>
+                        <img src="images/camel/camel-4.jpg" class="rounded-circle" alt="">
+                    </div>
+                </div>
+              </div>   
+        </section>
+        <!-- catagoris end  -->
+
+        <!-- cow section starts  -->
+
+        <section class="container mt-5" id="shoes">
+            <div class="title text-center mb-3">
+                <h3 class="font-weight-bolder text-white category-heading">Special গরু</h3>
+                <hr class="dotted-hr">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4">
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/cow/calamanik.png" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>কালামানিক</b></h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির গরু ক্রয় করুন</p>
+                        <h5>$1500</h5>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/cow/dholamanik.png" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>ধলামানিক</b></h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির গরু ক্রয় করুন</p>
+                        <h5>$1200</h5>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/cow/potolsutki.jpg" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>পটল শুটকি</b></h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির গরু ক্রয় করুন</p>
+                        <h5>$1100</h5>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/cow/viral-bos.png" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>ভাইরাল বস</b></h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির গরু ক্রয় করুন</p>
+                        <h5>$3500</h5>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-15%</p>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- cow section ends  -->
+
+        <!-- goat section starts  -->
+
+        <section class="container my-5" id="backpack">
+            <div class="title text-center mb-3">
+                <h3 class="font-weight-bolder text-white category-heading">Special ছাগল</h3>
+                <hr class="dotted-hr">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4">
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/goat/birbahadur.png" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>বীরবাহাদূর</b></h5>
+                        <h5>$320</h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির ছাগল ক্রয় করুন</p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/goat/dhullu.jpg" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>ধল্লু</b></h5>
+                        <h5>$420</h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির ছাগল ক্রয় করুন</p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/goat/lallu.jfif" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>লাল্লু</b></h5>
+                        <h5>$170</h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির ছাগল ক্রয় করুন</p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/goat/somrat.jpg" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>সম্রাট</b></h5>
+                        <h5>$570</h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির ছাগল ক্রয় করুন</p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- goat section ends -->
+
+        <!-- camel section starts  -->
+
+        <section class="container my-5" id="backpack">
+            <div class="title text-center mb-3">
+                <h3 class="font-weight-bolder text-white category-heading">Special উট</h3>
+                <hr class="dotted-hr">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4">
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/camel/camel-2.jpg" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>লালপাহারী</b></h5>
+                        <h5>$120</h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির উট ক্রয় করুন</p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/camel/camel-3.jpg" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>কালাচান</b></h5>
+                        <h5>$320</h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির উট ক্রয় করুন</p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/camel/camel-4.jpg" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>লাউকুমারি</b></h5>
+                        <h5>$170</h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির উট ক্রয় করুন</p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100 border-0 card-shadow">
+                        <img src="images/camel/camel-5.jpg" width="300px" height="300px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>বেগুন শুটকি</b></h5>
+                        <h5>$170</h5>
+                        <p class="card-text">দামে কম মানে ভালো,শান্তশিষ্ট লেজ বিশিষ্ট,উচু-লম্বা, চার পা ওয়ালা কুরবানির উট ক্রয় করুন</p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between align-items-center">
+                            <button class="panda-btn-buy-now">Bye Now > ></button>
+                            <p style="color: red;">-5%</p>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- camel section ends  -->
+
+        <!-- alert section starts  -->
+
+        <section class="container">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong style="color: red;">প্রতারক হতে সাবধান</strong> অনলাইনে পন্য ক্রয় এর আগে যাচাই বাছাই করে নেবেন
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+        </section>
+
+        <!-- alert section ends  -->
+
+
+        <!-- contact section starts -->
+
+        <section class="container bg-info py-4 rounded-3 my-5">
+            <div class="title text-center mb-3">
+                <h3 class="font-weight-bolder text-white category-heading">এখুনি যোগাযোগ করুন</h3>
+                <hr class="dotted-hr mb-3">
+            </div>
+            <form action="#" class="w-50 m-auto">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fs-3 fw-bold">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fs-3 fw-bold">Password</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Enter your password">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label fs-3 fw-bold">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Write your opinion" style="resize: none;"></textarea>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="mb-3">
+                        <input class="btn btn-outline-primary fw-bold text-uppercase" style="width: 100px;" type="submit" value="Submit">
+                    </div>
+                    <div class="mb-3">
+                        <input class="btn btn-outline-primary fw-bold text-uppercase" style="width: 100px;" type="reset" value="Reset">
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- contact section ends  -->
+
+        <!-- Subscribes section starts -->
+
+        <section style="height: 300px;" class="container panda-bg-info d-flex justify-content-center align-items-center rounded-3 my-5" id="subscribe">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p style="color: gray;">Get updates on sales, specials and more</p>
+                <input class="form-control" type="text" placeholder="Your Email"><br>
+                <button class="panda-btn-buy-now">Submit</button>
+            </div>
+        </section>
+
+        <!-- Subscribes section ends -->
+
+        <!-- location section starts  -->
+    
+        <section class="container" id="contact">
+            <div class="title text-center mb-3">
+                <h3 class="font-weight-bolder text-white category-heading">Our Location</h3>
+                <hr class="dotted-hr mb-3">
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7221.014717585162!2d89.01522162449174!3d25.18610713560512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc940070da14f9%3A0xa527bcae7ea4b610!2z4Kaq4Ka-4KaB4Kaa4Kas4Ka_4Kas4Ka_!5e0!3m2!1sbn!2sbd!4v1618540349336!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="contact-details">
+                        <h3>Contact Details</h3> <br>
+                        <div>
+                            <h5>eCOW</h5>
+                            <address>
+                                101 Station Road
+                                Panchbibi,Joypurhat
+                            </address> <br>
+                        </div>
+
+                        <div>
+                            <h3>Phone: </h3>
+                            <p>++8801786224649</p> <br>
+                        </div>
+
+                        <div>
+                            <h5>Opening Hours: </h5>
+                            <p>
+                                tue-sun: 10am to 11pm <br>
+                                inc. Friday
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- location section ends  -->
+
+    </main>
+
+    <!-- footer starts -->
+    <footer class="mt-5 text-center bg-info">
+        <div class="container py-4">
+            <div>
+                <p><span>Created by <b style="color: aqua;">Rownok</b></span> <small>©2020 . <b style="color: aqua;"> eCOW </b>. All rights reserved.</small></p>
+            </div>
+            <div>
+                <ul class="d-flex justify-content-center">
+                    <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-2x fa-youtube"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/"><i class="fab fa-2x fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/signup"><i class="fab fa-2x fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- bootstrap script  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

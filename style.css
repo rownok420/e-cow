@@ -1,0 +1,119 @@
+/* navigation start  */
+.ecow{
+    font-size: 35px;
+    margin-right: 240px;
+}
+.increase-font{
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+/* catagoris starts  */
+
+.dotted-hr{
+    border: 8px dotted black;
+    border-bottom: none;
+    width: 150px;
+    margin: auto;
+    background-color: unset;
+}
+
+.category-section{
+    background-color: #78DEC7;
+}
+
+.category-heading{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FAAD80 !important;
+}
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+    font-style: italic;
+}
+
+.feedback-img{
+    width: 350px;
+    height: 300px;
+}
+
+.carousel-indicators{
+    bottom: -20px;
+}
+
+
+/* card starts  */
+
+.card-images img{
+    width: 300px;
+    height: 307px !important;
+}
+
+
+/* location starts  */
+
+#contact{
+    padding: 1%;
+    background: #B980F0;
+}
+
+.contact-details{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.map{
+    width: 100%;
+}
+
+.contact-details p, address{
+    font-size: 1rem;
+}
+
+/* location ends  */
+
+
+
+
+.panda-bg-info{
+    background-color: #78DEC7;
+}
+
+.catagoris img{
+    width: 100px;
+    height: 75px;
+}
+
+.panda-btn-buy-now{
+    color: white;
+    background-image: linear-gradient(rgb(255, 88, 155) 0%, rgb(255, 19, 111) 100%);
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+.card-shadow{
+    box-shadow: lightgray 5px 5px 10px;
+}
+
+.rounded-border{
+    border-radius: 10px !important;
+}
+
+/* footer starts  */
+
+footer ul li{
+    list-style: none;
+    margin: 0 30px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+footer ul li a i{
+    color: white;
+}
